@@ -6,12 +6,37 @@ h1{
     display: inline;
     font-size: 3em;
     
+    
 }
+#section{
+    color: gray;
+    background-color: #fff;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+}
+.bottom{
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #1e90ff;
+    border-radius: 9px;
+    text-decoration: none;
+    
+}
+#task{
+
+}
+
 /* Utilities */
 .container{
-
+    max-width: 1080px;
+    margin: 0 auto;
 }
 /* Header */
 #header-principale{
     
+}
+#logo{
+    height: 70px;
 }
