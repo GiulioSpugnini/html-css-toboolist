@@ -3,10 +3,10 @@
     
 }
 .pillola{
-    padding: 3px;
+    padding: 5px;
     border-width: 0;
     border-style: solid;
-    border-radius: 8px;
+    border-radius: 10px;
     color: white;
 }
 .circle{
@@ -16,22 +16,22 @@
     border-radius: 50%;
 }
 
-#celeste{
+.celeste{
     background-color: #45abea;
 }
-#viola{
+.viola{
     background-color: #9c72e4;
 }
-#arancione{
+.arancione{
     background-color: #f29e33;
 }
-#verdeacqua{
+.verdeacqua{
     background-color: #64c0a9;
 }
-#rosa{
+.rosa{
     background-color: #d863a1;
 }
-#verde{
+.verde{
     background-color: #b0c926;
 }
 
@@ -66,6 +66,10 @@ ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
+}
+li{
+    margin-top: 8px;
+    font-size: 1.1em;
 }
 #sfondo{
     background-color: lightgray;
@@ -107,4 +111,8 @@ ul{
 #logo{
     height: 70px;
     vertical-align: middle;
+}
+/* Main */
+main{
+    padding-bottom: 20px;
 }
