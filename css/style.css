@@ -9,13 +9,6 @@
     border-radius: 10px;
     color: white;
 }
-.circle{
-    padding: 1px 3px 1px 3px;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 50%;
-}
-
 .celeste{
     background-color: #45abea;
 }
@@ -34,7 +27,12 @@
 .verde{
     background-color: #b0c926;
 }
-
+.cross-rossa{
+    color: red;
+}
+.checkverde{
+    color: #9bcd9b;
+}
 h1{
     display: inline;
     font-size: 3em;
