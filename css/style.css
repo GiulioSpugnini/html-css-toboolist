@@ -9,6 +9,13 @@
     border-radius: 8px;
     color: white;
 }
+.circle{
+    padding: 1px 3px 1px 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
 #celeste{
     background-color: #45abea;
 }
@@ -27,18 +34,11 @@
 #verde{
     background-color: #b0c926;
 }
-.circle{
-    padding: 1px;
-    width: 5px;
-    height: 5px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 50%;
-}
 
 h1{
     display: inline;
-    font-size: 3em;  
+    font-size: 3em;
+    vertical-align: middle ; 
 }
 strong{
     font-size: 1.5em;
@@ -106,4 +106,5 @@ ul{
 }
 #logo{
     height: 70px;
+    vertical-align: middle;
 }
