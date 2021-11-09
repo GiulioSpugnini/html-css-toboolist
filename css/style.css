@@ -27,10 +27,18 @@
 #verde{
     background-color: #b0c926;
 }
+.circle{
+    padding: 1px;
+    width: 5px;
+    height: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
 
 h1{
     display: inline;
-    font-size: 3em;    
+    font-size: 3em;  
 }
 strong{
     font-size: 1.5em;
@@ -61,11 +69,15 @@ ul{
 }
 #sfondo{
     background-color: lightgray;
+    height: 1920px;
 }
 #bordo-header{
-    border-width: 0;
+    border-width: 2px 0px 2px 0px;
     border-bottom: lightgray;
+    border-top: lightgray;
     border-style: solid;
+    border-radius: 6px;
+    
 }
 .distanza-righe-principali{
     padding-top: 40px;
@@ -77,13 +89,20 @@ ul{
     max-width: 1080px;
     margin: 0 auto;
     background-color: #fff;
+    border-width: 0px 0px 0px 2px ;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 6px;
 }
 /* Header */
 #header-principale{
     
 }
 #header-secondario{
+    height: 50px;
+    margin-top: 5px;
     padding-left: 40px;
+    
 }
 #logo{
     height: 70px;
