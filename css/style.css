@@ -11,7 +11,7 @@ h1{
 #section{
     color: gray;
     background-color: #fff;
-    border-width: 2px;
+    border-width: 1px;
     border-color: gray;
     border-style: solid;
 }
@@ -26,6 +26,11 @@ h1{
 }
 #task{
 
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Utilities */
