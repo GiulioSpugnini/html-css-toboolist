@@ -2,11 +2,38 @@
 *{
     
 }
+.pillola{
+    padding: 3px;
+    border-width: 0;
+    border-style: solid;
+    border-radius: 8px;
+    color: white;
+}
+#celeste{
+    background-color: #45abea;
+}
+#viola{
+    background-color: #9c72e4;
+}
+#arancione{
+    background-color: #f29e33;
+}
+#verdeacqua{
+    background-color: #64c0a9;
+}
+#rosa{
+    background-color: #d863a1;
+}
+#verde{
+    background-color: #b0c926;
+}
+
 h1{
     display: inline;
-    font-size: 3em;
-    
-    
+    font-size: 3em;    
+}
+strong{
+    font-size: 1.5em;
 }
 #section{
     color: gray;
@@ -40,6 +67,10 @@ ul{
     border-bottom: lightgray;
     border-style: solid;
 }
+.distanza-righe-principali{
+    padding-top: 40px;
+    padding-left: 40px;
+}
 
 /* Utilities */
 .container{
@@ -50,6 +81,9 @@ ul{
 /* Header */
 #header-principale{
     
+}
+#header-secondario{
+    padding-left: 40px;
 }
 #logo{
     height: 70px;
