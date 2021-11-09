@@ -32,11 +32,20 @@ ul{
     padding: 0px;
     margin: 0px;
 }
+#sfondo{
+    background-color: lightgray;
+}
+#bordo-header{
+    border-width: 0;
+    border-bottom: lightgray;
+    border-style: solid;
+}
 
 /* Utilities */
 .container{
     max-width: 1080px;
     margin: 0 auto;
+    background-color: #fff;
 }
 /* Header */
 #header-principale{
