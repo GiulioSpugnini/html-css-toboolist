@@ -1,116 +1,140 @@
 /* Generics */
-*{
-    
-}
-.pillola{
+
+.pillola {
     padding: 5px;
     border-width: 0;
     border-style: solid;
     border-radius: 10px;
     color: white;
 }
-.celeste{
+
+.celeste {
     background-color: #45abea;
 }
-.viola{
+
+.viola {
     background-color: #9c72e4;
 }
-.arancione{
+
+.arancione {
     background-color: #f29e33;
 }
-.verdeacqua{
+
+.verdeacqua {
     background-color: #64c0a9;
 }
-.rosa{
+
+.rosa {
     background-color: #d863a1;
 }
-.verde{
+
+.verde {
     background-color: #b0c926;
 }
-.cross-rossa{
+
+.cross-rossa {
     color: red;
 }
-.checkverde{
+
+.checkverde {
     color: #9bcd9b;
 }
-h1{
+
+.bianco {
+    background-color: #fff;
+}
+
+h1 {
     display: inline;
     font-size: 3em;
-    vertical-align: middle ; 
+    vertical-align: middle;
 }
-strong{
+
+strong {
     font-size: 1.5em;
 }
-#section{
+
+#section {
     color: gray;
     background-color: #fff;
     border-width: 1px;
     border-color: gray;
     border-style: solid;
 }
-.bottom{
+
+.bottom {
     display: inline-block;
     padding: 10px 15px;
     color: #fff;
     background-color: #1e90ff;
     border-radius: 9px;
     text-decoration: none;
-    
 }
-#task{
 
-}
-ul{
+ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
-li{
+
+li {
     margin-top: 8px;
     font-size: 1.1em;
 }
-#sfondo{
+
+#sfondo {
     background-color: lightgray;
-    height: 1920px;
+    height: 1080px;
 }
-#bordo-header{
+
+#bordo-header {
     border-width: 2px 0px 2px 0px;
     border-bottom: lightgray;
     border-top: lightgray;
     border-style: solid;
     border-radius: 6px;
-    
 }
-.distanza-righe-principali{
+
+.distanza-righe-principali {
     padding-top: 40px;
     padding-left: 40px;
 }
 
+
 /* Utilities */
-.container{
-    max-width: 1080px;
+
+.container {
+    max-width: 1000px;
     margin: 0 auto;
-    background-color: #fff;
-    border-width: 0px 0px 0px 2px ;
+    border-width: 0px 0px 0px 2px;
     border-style: solid;
     border-color: #fff;
     border-radius: 6px;
 }
+
+
 /* Header */
-#header-principale{
-    
-}
-#header-secondario{
+
+#header-secondario {
     height: 50px;
-    margin-top: 5px;
+    margin-top: 30px;
+    padding-top: 10px;
     padding-left: 40px;
-    
+    border-width: 2px 0px 2px 0px;
+    border-bottom: lightgray;
+    border-top: lightgray;
+    border-style: solid;
+    border-radius: 6px;
 }
-#logo{
+
+#logo {
     height: 70px;
     vertical-align: middle;
 }
+
+
 /* Main */
-main{
+
+main {
     padding-bottom: 20px;
 }
